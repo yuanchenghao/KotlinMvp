@@ -30,6 +30,7 @@ class SplashActivity : BaseActivity() {
     private var alphaAnimation:AlphaAnimation?=null
 
     init {
+        //自定义字体文件
         textTypeface = Typeface.createFromAsset(MyApplication.context.assets, "fonts/Lobster-1.4.otf")
         descTypeFace = Typeface.createFromAsset(MyApplication.context.assets, "fonts/FZLanTingHeiS-L-GB-Regular.TTF")
     }

@@ -68,6 +68,7 @@ class SearchActivity : BaseActivity(), SearchContract.View {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             setUpEnterAnimation() // 入场动画
             setUpExitAnimation() // 退场动画
+
         } else {
             setUpView()
         }
